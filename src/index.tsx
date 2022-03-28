@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// This "fixes" it
+// if (!('process' in window)) {
+//   // @ts-ignore
+//   window.process = {}
+// }
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
